@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "images",
+  "info": {
+    "singularName": "image",
+    "pluralName": "images",
+    "displayName": "image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "occassion": {
+      "type": "string"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "imgURL": {
+      "type": "text"
+    }
+  }
+}
